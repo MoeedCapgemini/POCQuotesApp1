@@ -1,4 +1,5 @@
 # Quotes App
+
 A simple android app using kotlin that displays inspirational quotes.
 The App supports viewing all quotes,fetching a single quotes and showing a random quotes
 
@@ -9,4 +10,24 @@ The App supports viewing all quotes,fetching a single quotes and showing a rando
 - **Single Quote Detail**: Shows details of a selected quote.
 
 - **Random Quote Generator**: Fetches and displays a random quote each time.
+
+## Architecture & Tech Stack
+
+- **Language**: Kotlin
+
+- **Architecture**: Clean Architecture
+
+    - Domain, Data, and Presentation layers
+
+- **Reactive Programming**: Kotlin Coroutines and Flows
+
+- **Dependency Injection**: Hilt
+
+- **Networking**: Retrofit
+
+- **Asynchronous Handling**: Coroutines
+
+- **UI Updates**: StateFlow, LiveData
+
+- **Jetpack Components**: ViewModel,
  
